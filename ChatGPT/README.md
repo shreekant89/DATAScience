@@ -1,3 +1,6 @@
+This project is just for learning purposes so that you can provide a paragraph and then ask answers to the model and the model will give you the answer
+we are using Flask to convert our Python to API code. This is just what we are using inbuild free model.
+
 1.mkdir my_ai_project
 2.cd my_ai_project
 3.Create a virtual environment:-
