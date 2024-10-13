@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "Flask",
+          "type": "python",
+          "request": "launch",
+          "program": "${workspaceFolder}/app.py",  // Path to your Flask entry file (app.py)
+          "console": "integratedTerminal",
+          "env": {
+              "FLASK_APP": "app.py",              // Set the FLASK_APP environment variable
+              "FLASK_ENV": "development"          // Enables debug mode in Flask
+          },
+          "args": [
+              "run",
+              "--no-debugger",
+              "--no-reload"
+          ],
+          "jinja": true
+      }
+  ]
+}
